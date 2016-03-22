@@ -1,0 +1,2183 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+html {
+  color: #000;
+  background: #FFF;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+fieldset, img {
+  border: 0;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+ol, ul {
+  list-style: none;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+caption, th {
+  text-align: left;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+q:before, q:after {
+  content: '';
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+input, textarea, select {
+  *font-size: 100%;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+legend {
+  color: #000;
+}
+
+/* line 2, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/reset.css */
+#yui3-css-stamp.cssreset {
+  display: none;
+}
+
+/*!
+ * Bootstrap v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+/* line 10, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 13, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+/* line 18, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 21, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 28, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 37, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+form {
+  margin: 0 0 18px;
+}
+
+/* line 40, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 45, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 27px;
+  font-size: 19.5px;
+  line-height: 36px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 56, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+legend small {
+  font-size: 13.5px;
+  color: #999999;
+}
+
+/* line 60, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+/* line 69, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input,
+button,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 75, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 79, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 18px;
+  padding: 4px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555555;
+}
+
+/* line 104, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input,
+textarea {
+  width: 210px;
+}
+
+/* line 108, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+textarea {
+  height: auto;
+}
+
+/* line 111, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+/* line 141, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* line 166, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 3px 0;
+  *margin-top: 0;
+  /* IE7 */
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* line 175, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+/* line 182, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+
+/* line 186, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+select,
+input[type="file"] {
+  height: 28px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+  line-height: 28px;
+}
+
+/* line 196, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+select {
+  width: 220px;
+  border: 1px solid #bbb;
+}
+
+/* line 200, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/* line 204, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 212, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.radio,
+.checkbox {
+  min-height: 18px;
+  padding-left: 18px;
+}
+
+/* line 217, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -18px;
+}
+
+/* line 222, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+
+/* line 226, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.radio.inline,
+.checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* line 233, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+
+/* line 237, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-mini {
+  width: 60px;
+}
+
+/* line 240, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-small {
+  width: 90px;
+}
+
+/* line 243, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-medium {
+  width: 150px;
+}
+
+/* line 246, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-large {
+  width: 210px;
+}
+
+/* line 249, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-xlarge {
+  width: 270px;
+}
+
+/* line 252, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-xxlarge {
+  width: 530px;
+}
+
+/* line 255, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input[class*="span"],
+select[class*="span"],
+textarea[class*="span"],
+.uneditable-input[class*="span"],
+.row-fluid input[class*="span"],
+.row-fluid select[class*="span"],
+.row-fluid textarea[class*="span"],
+.row-fluid .uneditable-input[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+
+/* line 266, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-append input[class*="span"],
+.input-append .uneditable-input[class*="span"],
+.input-prepend input[class*="span"],
+.input-prepend .uneditable-input[class*="span"],
+.row-fluid .input-prepend [class*="span"],
+.row-fluid .input-append [class*="span"] {
+  display: inline-block;
+}
+
+/* line 274, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input,
+textarea,
+.uneditable-input {
+  margin-left: 0;
+}
+
+/* line 279, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span12, textarea.span12, .uneditable-input.span12 {
+  width: 930px;
+}
+
+/* line 282, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span11, textarea.span11, .uneditable-input.span11 {
+  width: 850px;
+}
+
+/* line 285, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span10, textarea.span10, .uneditable-input.span10 {
+  width: 770px;
+}
+
+/* line 288, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span9, textarea.span9, .uneditable-input.span9 {
+  width: 690px;
+}
+
+/* line 291, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span8, textarea.span8, .uneditable-input.span8 {
+  width: 610px;
+}
+
+/* line 294, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span7, textarea.span7, .uneditable-input.span7 {
+  width: 530px;
+}
+
+/* line 297, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span6, textarea.span6, .uneditable-input.span6 {
+  width: 450px;
+}
+
+/* line 300, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span5, textarea.span5, .uneditable-input.span5 {
+  width: 370px;
+}
+
+/* line 303, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span4, textarea.span4, .uneditable-input.span4 {
+  width: 290px;
+}
+
+/* line 306, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span3, textarea.span3, .uneditable-input.span3 {
+  width: 210px;
+}
+
+/* line 309, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span2, textarea.span2, .uneditable-input.span2 {
+  width: 130px;
+}
+
+/* line 312, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input.span1, textarea.span1, .uneditable-input.span1 {
+  width: 50px;
+}
+
+/* line 315, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  border-color: #ddd;
+}
+
+/* line 325, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+
+/* line 331, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.warning > label,
+.control-group.warning .help-block,
+.control-group.warning .help-inline {
+  color: #c09853;
+}
+
+/* line 336, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.warning .checkbox,
+.control-group.warning .radio,
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea {
+  color: #c09853;
+  border-color: #c09853;
+}
+
+/* line 344, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.warning .checkbox:focus,
+.control-group.warning .radio:focus,
+.control-group.warning input:focus,
+.control-group.warning select:focus,
+.control-group.warning textarea:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: 0 0 6px #dbc59e;
+  -moz-box-shadow: 0 0 6px #dbc59e;
+  box-shadow: 0 0 6px #dbc59e;
+}
+
+/* line 354, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.warning .input-prepend .add-on,
+.control-group.warning .input-append .add-on {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #c09853;
+}
+
+/* line 360, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.error > label,
+.control-group.error .help-block,
+.control-group.error .help-inline {
+  color: #b94a48;
+}
+
+/* line 365, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.error .checkbox,
+.control-group.error .radio,
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea {
+  color: #b94a48;
+  border-color: #b94a48;
+}
+
+/* line 373, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.error .checkbox:focus,
+.control-group.error .radio:focus,
+.control-group.error input:focus,
+.control-group.error select:focus,
+.control-group.error textarea:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: 0 0 6px #d59392;
+  -moz-box-shadow: 0 0 6px #d59392;
+  box-shadow: 0 0 6px #d59392;
+}
+
+/* line 383, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.error .input-prepend .add-on,
+.control-group.error .input-append .add-on {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #b94a48;
+}
+
+/* line 389, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.success > label,
+.control-group.success .help-block,
+.control-group.success .help-inline {
+  color: #468847;
+}
+
+/* line 394, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.success .checkbox,
+.control-group.success .radio,
+.control-group.success input,
+.control-group.success select,
+.control-group.success textarea {
+  color: #468847;
+  border-color: #468847;
+}
+
+/* line 402, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.success .checkbox:focus,
+.control-group.success .radio:focus,
+.control-group.success input:focus,
+.control-group.success select:focus,
+.control-group.success textarea:focus {
+  border-color: #356635;
+  -webkit-box-shadow: 0 0 6px #7aba7b;
+  -moz-box-shadow: 0 0 6px #7aba7b;
+  box-shadow: 0 0 6px #7aba7b;
+}
+
+/* line 412, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group.success .input-prepend .add-on,
+.control-group.success .input-append .add-on {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #468847;
+}
+
+/* line 418, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input:focus:required:invalid,
+textarea:focus:required:invalid,
+select:focus:required:invalid {
+  color: #b94a48;
+  border-color: #ee5f5b;
+}
+
+/* line 424, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+input:focus:required:invalid:focus,
+textarea:focus:required:invalid:focus,
+select:focus:required:invalid:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #f8b9b7;
+  -moz-box-shadow: 0 0 6px #f8b9b7;
+  box-shadow: 0 0 6px #f8b9b7;
+}
+
+/* line 432, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-actions {
+  padding: 17px 20px 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  *zoom: 1;
+}
+
+/* line 440, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-actions:before,
+.form-actions:after {
+  display: table;
+  content: "";
+}
+
+/* line 445, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-actions:after {
+  clear: both;
+}
+
+/* line 448, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.uneditable-input {
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: not-allowed;
+  background-color: #ffffff;
+  border-color: #eee;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+}
+
+/* line 458, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+:-moz-placeholder {
+  color: #999999;
+}
+
+/* line 461, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+:-ms-input-placeholder {
+  color: #999999;
+}
+
+/* line 464, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+::-webkit-input-placeholder {
+  color: #999999;
+}
+
+/* line 467, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.help-block,
+.help-inline {
+  color: #555555;
+}
+
+/* line 471, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.help-block {
+  display: block;
+  margin-bottom: 9px;
+}
+
+/* line 475, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.help-inline {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+/* line 484, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend,
+.input-append {
+  margin-bottom: 5px;
+}
+
+/* line 488, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend input,
+.input-append input,
+.input-prepend select,
+.input-append select,
+.input-prepend .uneditable-input,
+.input-append .uneditable-input {
+  position: relative;
+  margin-bottom: 0;
+  *margin-left: 0;
+  vertical-align: middle;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 502, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend input:focus,
+.input-append input:focus,
+.input-prepend select:focus,
+.input-append select:focus,
+.input-prepend .uneditable-input:focus,
+.input-append .uneditable-input:focus {
+  z-index: 2;
+}
+
+/* line 510, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend .uneditable-input,
+.input-append .uneditable-input {
+  border-left-color: #ccc;
+}
+
+/* line 514, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on,
+.input-append .add-on {
+  display: inline-block;
+  width: auto;
+  height: 18px;
+  min-width: 16px;
+  padding: 4px 5px;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: 0 1px 0 #ffffff;
+  vertical-align: middle;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+}
+
+/* line 529, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on,
+.input-append .add-on,
+.input-prepend .btn,
+.input-append .btn {
+  margin-left: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 538, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend .active,
+.input-append .active {
+  background-color: #a9dba9;
+  border-color: #46a546;
+}
+
+/* line 543, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on,
+.input-prepend .btn {
+  margin-right: -1px;
+}
+
+/* line 547, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on:first-child,
+.input-prepend .btn:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 553, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-append input,
+.input-append select,
+.input-append .uneditable-input {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 560, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-append .uneditable-input {
+  border-right-color: #ccc;
+  border-left-color: #eee;
+}
+
+/* line 564, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-append .add-on:last-child,
+.input-append .btn:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 570, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend.input-append input,
+.input-prepend.input-append select,
+.input-prepend.input-append .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 577, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend.input-append .add-on:first-child,
+.input-prepend.input-append .btn:first-child {
+  margin-right: -1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 584, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.input-prepend.input-append .add-on:last-child,
+.input-prepend.input-append .btn:last-child {
+  margin-left: -1px;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 591, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.search-query {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+/* line 603, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-search input,
+.form-inline input,
+.form-horizontal input,
+.form-search textarea,
+.form-inline textarea,
+.form-horizontal textarea,
+.form-search select,
+.form-inline select,
+.form-horizontal select,
+.form-search .help-inline,
+.form-inline .help-inline,
+.form-horizontal .help-inline,
+.form-search .uneditable-input,
+.form-inline .uneditable-input,
+.form-horizontal .uneditable-input,
+.form-search .input-prepend,
+.form-inline .input-prepend,
+.form-horizontal .input-prepend,
+.form-search .input-append,
+.form-inline .input-append,
+.form-horizontal .input-append {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  margin-bottom: 0;
+}
+
+/* line 631, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-search .hide,
+.form-inline .hide,
+.form-horizontal .hide {
+  display: none;
+}
+
+/* line 636, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-search label,
+.form-inline label {
+  display: inline-block;
+}
+
+/* line 640, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-search .input-append,
+.form-inline .input-append,
+.form-search .input-prepend,
+.form-inline .input-prepend {
+  margin-bottom: 0;
+}
+
+/* line 646, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-search .radio,
+.form-search .checkbox,
+.form-inline .radio,
+.form-inline .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* line 654, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-search .radio input[type="radio"],
+.form-search .checkbox input[type="checkbox"],
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-right: 3px;
+  margin-left: 0;
+}
+
+/* line 662, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.control-group {
+  margin-bottom: 9px;
+}
+
+/* line 665, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+legend + .control-group {
+  margin-top: 18px;
+  -webkit-margin-top-collapse: separate;
+}
+
+/* line 669, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-group {
+  margin-bottom: 18px;
+  *zoom: 1;
+}
+
+/* line 673, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-group:before,
+.form-horizontal .control-group:after {
+  display: table;
+  content: "";
+}
+
+/* line 678, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-group:after {
+  clear: both;
+}
+
+/* line 681, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-label {
+  float: left;
+  width: 140px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+/* line 687, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 160px;
+  *margin-left: 0;
+}
+
+/* line 693, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .controls:first-child {
+  *padding-left: 160px;
+}
+
+/* line 696, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .help-block {
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+/* line 700, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .form-actions {
+  padding-left: 160px;
+}
+
+/* line 703, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 18px;
+  *line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 745, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+/* line 753, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+/* line 757, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn:first-child {
+  *margin-left: 0;
+}
+
+/* line 760, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* line 774, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 779, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn.active,
+.btn:active {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 789, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 800, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-large {
+  padding: 9px 14px;
+  font-size: 15px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 808, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-large [class^="icon-"] {
+  margin-top: 1px;
+}
+
+/* line 811, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-small {
+  padding: 5px 9px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* line 816, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-small [class^="icon-"] {
+  margin-top: -1px;
+}
+
+/* line 819, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-mini {
+  padding: 2px 6px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+/* line 824, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-primary,
+.btn-primary:hover,
+.btn-warning,
+.btn-warning:hover,
+.btn-danger,
+.btn-danger:hover,
+.btn-success,
+.btn-success:hover,
+.btn-info,
+.btn-info:hover,
+.btn-inverse,
+.btn-inverse:hover {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 839, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 847, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn {
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+/* line 851, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-primary {
+  background-color: #0074cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+  background-image: linear-gradient(top, #0088cc, #0055cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0);
+  border-color: #0055cc #0055cc #003580;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0055cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 868, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #0055cc;
+  *background-color: #004ab3;
+}
+
+/* line 876, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #004099 \9;
+}
+
+/* line 880, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-warning {
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-image: -ms-linear-gradient(top, #fbb450, #f89406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(top, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89406', GradientType=0);
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f89406;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 897, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+  background-color: #f89406;
+  *background-color: #df8505;
+}
+
+/* line 905, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-warning:active,
+.btn-warning.active {
+  background-color: #c67605 \9;
+}
+
+/* line 909, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-danger {
+  background-color: #da4f49;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -ms-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(top, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #bd362f;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 926, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+
+/* line 934, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #942a25 \9;
+}
+
+/* line 938, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-success {
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -ms-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(top, #62c462, #51a351);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #51a351;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 955, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #51a351;
+  *background-color: #499249;
+}
+
+/* line 963, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-success:active,
+.btn-success.active {
+  background-color: #408140 \9;
+}
+
+/* line 967, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-info {
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -ms-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(top, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f96b4;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 984, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+
+/* line 992, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-info:active,
+.btn-info.active {
+  background-color: #24748c \9;
+}
+
+/* line 996, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-inverse {
+  background-color: #414141;
+  background-image: -moz-linear-gradient(top, #555555, #222222);
+  background-image: -ms-linear-gradient(top, #555555, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555555), to(#222222));
+  background-image: -webkit-linear-gradient(top, #555555, #222222);
+  background-image: -o-linear-gradient(top, #555555, #222222);
+  background-image: linear-gradient(top, #555555, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#222222', GradientType=0);
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #222222;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 1013, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+  background-color: #222222;
+  *background-color: #151515;
+}
+
+/* line 1021, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+.btn-inverse:active,
+.btn-inverse.active {
+  background-color: #080808 \9;
+}
+
+/* line 1025, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+button.btn,
+input[type="submit"].btn {
+  *padding-top: 2px;
+  *padding-bottom: 2px;
+}
+
+/* line 1030, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+button.btn::-moz-focus-inner,
+input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 1035, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+button.btn.btn-large,
+input[type="submit"].btn.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+
+/* line 1040, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+button.btn.btn-small,
+input[type="submit"].btn.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+/* line 1045, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/bootstrap.css */
+button.btn.btn-mini,
+input[type="submit"].btn.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
+/* line 1, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+form {
+  margin-bottom: 0;
+}
+
+/* line 5, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 11, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* Home */
+/* line 18, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+html.home {
+  background: #EDECEA;
+}
+
+/* line 22, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home {
+  padding-bottom: 50px;
+}
+
+/* line 26, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .page-content {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* line 31, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .hero {
+  width: 100%;
+  height: 446px;
+  background: url(/assets/home/hero-5a20692c5df7731e7a40b5c5ea75eb546e91e406b9099ac98304ff5d6140827c.jpg) center center no-repeat;
+  background-size: 1600px 446px;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: .09em;
+  margin: 0 auto;
+}
+
+/* line 42, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .hero .large {
+  font-weight: bold;
+  font-size: 40px;
+  color: #074E6F;
+  text-transform: uppercase;
+  margin: 85px 0 0 136px;
+  position: relative;
+  z-index: 2;
+  letter-spacing: 2px;
+}
+
+/* line 53, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .hero .small {
+  font-weight: bold;
+  color: #955F5D;
+  font-size: 18px;
+  margin: 10px 0 0 115px;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 375px;
+  letter-spacing: 1px;
+}
+
+/* line 67, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap {
+  height: 80px;
+  width: 411px;
+  margin: 23px auto 0;
+}
+
+/* line 73, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap .key {
+  width: 46px;
+  height: 19px;
+  margin: 0 auto;
+  background: url(/assets/home/key-39648e729f45e67b742d457635e8643f150c3a972e12028118d08aacc9975371.png) 0 0 no-repeat;
+  background-size: 46px 19px;
+}
+
+/* line 81, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap .byline {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #074E6F;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+
+/* line 91, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap .email {
+  float: left;
+  font-size: 13px;
+  padding: 8px 0 8px 10px;
+  border: 1px solid #074E6F;
+  width: 256px;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+/* line 101, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap .submit {
+  width: 143px;
+  background: #074E6F;
+  float: left;
+  height: 37px;
+  line-height: 37px;
+  color: #FFF;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 0;
+  letter-spacing: 2px;
+}
+
+/* line 114, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended {
+  width: 500px;
+  margin-top: 27px;
+}
+
+/* line 119, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .thanks {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #074e6f;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin-bottom: 14px;
+}
+
+/* line 130, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .compiling {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555556;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* line 141, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 149, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a {
+  color: #074e6f;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 158, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a:hover {
+  color: #955F5D;
+}
+
+/* line 162, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .again {
+  font-weight: 500;
+  color: #555556;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 170, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended {
+  width: 500px;
+  margin-top: 27px;
+}
+
+/* line 175, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .thanks {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #074e6f;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin-bottom: 14px;
+}
+
+/* line 186, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .compiling {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555556;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* line 197, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 205, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a {
+  color: #074e6f;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 214, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a:hover {
+  color: #955F5D;
+}
+
+/* line 218, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .again {
+  font-weight: 500;
+  color: #555556;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Refer a friend page */
+/* line 230, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+.wf-loading .brandon {
+  visibility: hidden;
+}
+
+/* line 234, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+.brandon {
+  font-family: "Brandon Grotesque", "brandon-grotesque", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 238, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer {
+  background: #FFF;
+}
+
+/* line 242, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .page-content {
+  width: 1120px;
+  margin: 0 auto;
+  z-index: 0;
+  position: relative;
+}
+
+/* line 249, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .header {
+  height: 50px;
+  background: #074E6F;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 258, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .header .content {
+  width: 315px;
+  margin: 0 auto;
+}
+
+/* line 263, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .header p {
+  float: left;
+  color: #FFF;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+/* line 271, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .header .byline {
+  font-size: 14px;
+}
+
+/* line 275, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .header .logo {
+  font-weight: normal;
+  font-size: 0;
+  line-height: 0;
+  margin-right: 14px;
+  letter-spacing: 1px;
+  background: url(/assets/refer/logo-379d200aba1bc9cb5b8c9bfe6ff92b62dbae2be2f8480b19bb9bdbd891b65323.png) 0 0 no-repeat;
+  background-size: 106px 19px;
+  height: 19px;
+  width: 106px;
+  margin-top: 15px;
+}
+
+/* line 288, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .hero {
+  background: #F1F0EE;
+  height: 391px;
+  overflow: hidden;
+}
+
+/* line 294, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .mammoth {
+  width: 612px;
+  height: 394px;
+  background: url(/assets/refer/mammoth-e9397cfd44de27d6a419ad60640412088baaa01fd7bde587db07033520f5f1e0.png) 0 0 no-repeat;
+  background-size: 610px 394px;
+  overflow: hidden;
+  margin-top: 15px;
+  float: left;
+}
+
+/* line 304, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .mammoth .need {
+  color: #FFF;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 102px 0 0 72px;
+  display: block;
+  line-height: 56px;
+  letter-spacing: 4px;
+  text-align: center;
+  width: 284px;
+}
+
+/* line 317, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap {
+  float: right;
+  width: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  margin-right: 60px;
+}
+
+/* line 326, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .why {
+  font-size: 16px;
+  color: #555556;
+  font-weight: bold;
+  margin-top: 42px;
+}
+
+/* line 333, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .title {
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #074E6F;
+  margin-top: 18px;
+  letter-spacing: .13em;
+}
+
+/* line 343, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .subtitle {
+  color: #565656;
+  font-size: 14px;
+  text-transform: none;
+  margin-top: 15px;
+}
+
+/* line 350, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .copy-link {
+  border: 1px solid #D1D0C7;
+  background: #FFF;
+  padding: 10px 0;
+  width: 320px;
+  text-transform: none;
+  font-size: 11px;
+  margin: 20px auto 0;
+}
+
+/* line 360, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links {
+  width: 120px;
+  height: 37px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+/* line 367, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links a, #refer .share-wrap .social-links div {
+  display: inline-block;
+}
+
+/* line 371, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links .fb {
+  background: url(/assets/refer/fb-ebf6f71d708067d6bcae57cf185a4e9c967a32b7ea9216aa0894ce3395871761.png);
+  background-size: 27px 27px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 378, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links .twit {
+  background: url(/assets/refer/twit-88cdd3c6eaaf0ce5e02102a9e3f6b9d784ac5f4f07f31324390c220a58270ff0.png);
+  background-size: 27px 27px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 385, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links .sep {
+  height: 28px;
+  width: 1px;
+  background: #BAB9BA;
+  margin: 0 20px;
+}
+
+/* line 392, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes {
+  width: 100%;
+  background: #FFF;
+  border-top: 1px solid #D2D1C8;
+  padding-bottom: 100px;
+}
+
+/* line 399, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .page-content {
+  position: relative;
+}
+
+/* line 403, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .callout {
+  text-align: center;
+  font-size: 16px;
+  color: #074E6F;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 413, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .progress {
+  height: 4px;
+  width: 100%;
+  background: url(/assets/refer/progress-bg-69e0ca6f56e8d264f57c562940002ecbcb17d262cf8aa423a58b693af0050df0.png) 0 0 repeat-x;
+  background-size: 1px 4px;
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+}
+
+/* line 423, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .progress .mover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 429, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .progress .mover .bar {
+  background: url(/assets/refer/progress-done-b7c0e9628c5ecf5553381ed3d81c8871dc06a52b9cdfe757f2bd1141ff40c132.png) 0 0 repeat-x;
+  width: 165px;
+  height: 4px;
+  -webkit-background-size: 1px 4px;
+  background-size: 1px 4px;
+}
+
+/* line 437, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prize-two .progress .mover .bar {
+  width: 312px;
+}
+
+/* line 438, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prize-three .progress .mover .bar {
+  width: 566px;
+}
+
+/* line 439, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prize-four .progress .mover .bar {
+  width: 820px;
+}
+
+/* line 440, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prize-five .progress .mover .bar {
+  width: 1120px;
+}
+
+/* line 443, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes ul.products {
+  height: 105px;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 451, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.title {
+  height: 100%;
+  text-transform: uppercase;
+  color: #074E6F;
+  font-weight: 500;
+  font-size: 14px;
+  float: left;
+  margin-right: 68px;
+  width: 165px;
+  font-weight: bold;
+}
+
+/* line 463, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.title .friends {
+  margin-top: 7px;
+  letter-spacing: 2px;
+}
+
+/* line 468, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.title .rewards {
+  margin-top: 45px;
+  letter-spacing: 2px;
+}
+
+/* line 473, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product {
+  height: 100%;
+  color: #074E6F;
+  width: 125px;
+  margin-right: 129px;
+  float: left;
+  position: relative;
+}
+
+/* line 482, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: 1px solid #DAD9D2;
+  text-align: center;
+  line-height: 30px;
+  color: #868282;
+  overflow: hidden;
+  background: #F1F0EE;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+/* line 496, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .sep {
+  width: 12px;
+  height: 2px;
+  background: transparent;
+  margin: 13px auto 13px;
+}
+
+/* line 503, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .caret {
+  width: 100%;
+  height: 10px;
+  background: url(/images/refer/caret.png) center center no-repeat;
+  background-size: 16px 10px;
+  position: absolute;
+  bottom: -15px;
+}
+
+/* line 512, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.selected .caret {
+  background: url(/images/refer/caret-selected.png) center center no-repeat;
+  background-size: 16px 10px;
+}
+
+/* line 517, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product p {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* line 522, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product:last-child {
+  margin-right: 0;
+}
+
+/* line 526, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.last {
+  margin-right: 0;
+}
+
+/* line 530, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.selected .circle {
+  background: #995F5E !important;
+  border-color: #995F5E !important;
+  color: #FFF !important;
+}
+
+/* line 537, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.selected p {
+  color: #995F5E !important;
+}
+
+/* line 541, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product:hover .circle {
+  color: #FFF;
+  background: #074E6F;
+  border-color: #074E6F;
+}
+
+/* line 547, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .tooltip {
+  height: 254px;
+  width: 190px;
+  border: 4px solid #074E6F;
+  position: absolute;
+  top: -285px;
+  left: -32px;
+  display: none;
+  background: #FFF;
+}
+
+/* line 558, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .tooltip img {
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 563, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product:hover .tooltip {
+  display: block;
+}
+
+/* line 567, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes p.place {
+  text-align: center;
+  font-size: 16px;
+  color: #074E6F;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+/* line 576, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes p.place span {
+  color: #995F5E;
+}
+
+/* line 580, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes p.check {
+  text-align: center;
+  font-size: 16px;
+  color: #858181;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* line 589, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes p.ship {
+  text-align: center;
+  font-size: 16px;
+  color: #858181;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+/* line 598, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+#refer .prizes a.policy {
+  text-align: center;
+  font-size: 12px;
+  color: #CCCCCC;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+/*
+	RETINA
+*/
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  /* line 618, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #home .hero {
+    background: url(/assets/home/hero@2x-9a836589c7f90e992a3178f4b2fb346685d6274cd430e58fc026398ccc8c17f7.jpg) center center no-repeat;
+    background-size: 1600px 446px;
+  }
+
+  /* line 623, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #home .form-wrap .key {
+    background: url(/assets/home/key@2x-bf26564c064caf08a5fa31769931a74749f8d3140f031f541707b0a8983b56f7.png) 0 0 no-repeat;
+    background-size: 46px 19px;
+  }
+
+  /* line 628, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .header .logo {
+    background: url(/assets/refer/logo@2x-8762e0b0af242cb71fb21709d568228d2d5f5dfe592359d89fd4ec5144aad8d9.png) 0 0 no-repeat;
+    background-size: 106px 19px;
+  }
+
+  /* line 633, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .mammoth {
+    background: url(/assets/refer/mammoth@2x-5244217a369a1ee69e36b22fe882b08ba5dc7b6cf3342dc8f1aa562a5417910e.png) 0 0 no-repeat;
+    background-size: 610px 394px;
+  }
+
+  /* line 638, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .share-wrap .social-links .fb {
+    background: url(/assets/refer/fb@2x-dfa689c89c26fbd0cd7d93a4c74a14b36fa835e83f5cf0f1107965f5402d009f.png);
+    background-size: 27px 27px;
+  }
+
+  /* line 643, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .share-wrap .social-links .twit {
+    background: url(/assets/refer/twit@2x-8dc70be361bed1df18029b15a9db7e287e188c92c5787536f02fea6d32a36618.png);
+    background-size: 27px 27px;
+  }
+
+  /* line 648, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .prizes .progress {
+    background: url(/assets/refer/progress-bg@2x-3a78e8cb15acb2898fd3e1815ecb4934bbf37d590652b257cf819b3ea1c73287.png) 0 0 repeat-x;
+    background-size: 1px 4px;
+  }
+
+  /* line 653, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .prizes .progress .mover .bar {
+    background: url(/assets/refer/progress-done@2x-dc1644f7e8652fe78764e1589adb82ef969187e2cbba3651fe698d53a59c55ed.png) 0 0 repeat-x;
+    background-size: 1px 4px;
+  }
+
+  /* line 658, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .prizes .progress .mover .razor {
+    background: url(/images/refer/razor@2x.png) 0 0 no-repeat;
+    background-size: 82px 23px;
+  }
+
+  /* line 663, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .prizes .products li.product .caret {
+    background: url(/images/refer/caret@2x.png) center center no-repeat;
+    background-size: 16px 10px;
+  }
+
+  /* line 668, /Users/joedeveloper/Desktop/prelaunchr-master/app/assets/stylesheets/_core.scss */
+  #refer .prizes .products li.product.selected .caret {
+    background: url(/images/refer/caret-selected@2x.png) center center no-repeat;
+    background-size: 16px 10px;
+  }
+}
