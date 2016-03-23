@@ -8,7 +8,7 @@ gem 'devise'
 gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
-gem 'therubyracer'
+
 
 
 # Gems used only for assets and not required
@@ -42,4 +42,5 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
+  gem 'therubyracer'
 end
